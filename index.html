@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de notas escolares</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .especial{
+            background-color: gray;
+            color: white;
+        }
+        .alinhar_inicio{
+            text-align: left;
+        }
+        .centralizar{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col" rowspan="2" class="especial">Área</th>
+                <th scope="col" rowspan="2" class="especial">Disciplinas</th>
+                <th colspan="2" scope="colgroup" class="especial">Notas</th>
+                <th scope="col" rowspan="2" class="especial">Média</th>
+            </tr>
+            <tr>
+                <th class="especial" scope="col">Nota 1</th>
+                <th class="especial" scope="col">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td>Matemática</td>
+                <td class="centralizar">8.0</td>
+                <td class="centralizar">6.0</td>
+                <td class="centralizar">7.0</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td class="centralizar">9.0</td>
+                <td class="centralizar">5.0</td>
+                <td class="centralizar">7.0</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td class="centralizar">8.0</td>
+                <td class="centralizar">7.0</td>
+                <td class="centralizar">7.5</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td class="centralizar">10.0</td>
+                <td class="centralizar">9.0</td>
+                <td class="centralizar">9.5</td>
+            </tr>
+            <tr>
+                <th scope="row" colspan="4" class="especial alinhar_inicio">Média de Exatas</th>
+                <th class="especial">7.75</th>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <td>História</td>
+                <td class="centralizar">5.0</td>
+                <td class="centralizar">8.0</td>
+                <td class="centralizar">6.5</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td class="centralizar">4.0</td>
+                <td class="centralizar">6.0</td>
+                <td class="centralizar">5.0</td>
+            </tr>
+            <tr>
+                <th scope="row" colspan="4" class="especial alinhar_inicio">Média de Humanas</th>
+                <th class="especial">5.75</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

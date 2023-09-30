@@ -8,7 +8,7 @@ Este projeto já foi concluído :heavy_check_mark:
 
 ### Deploy
 
-Para visualizar a aplicação deste projeto,  <a href="https://artleao.github.io/buscador_cep" target="_blank">clique aqui</a>.
+Para visualizar a aplicação deste projeto,  <a href="https://artleao.github.io/desafio_materias/" target="_blank">clique aqui</a>.
 
 ### Licença
 
